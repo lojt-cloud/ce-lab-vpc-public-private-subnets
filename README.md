@@ -142,7 +142,7 @@ VPC_ID=$(aws ec2 create-vpc --cidr-block 10.0.0.0/16 \
 echo "VPC ID: $VPC_ID"
 
 # Enable DNS hostnames
-aws ec2 modify-vpc-attribute --vpc-id $VPC_ID --enable-dns-hostnames
+aws ec2 modify-vpc-attribute --vpc-id $VPC_ID --enable-dns-hostnamesaws ec2 modify-vpc-attribute --vpc-id $VPC_ID --enable-dns-hostnames
 ```
 
 ### Part 3: Create Internet Gateway (5 min)
