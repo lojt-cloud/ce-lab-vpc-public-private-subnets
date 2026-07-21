@@ -1,0 +1,28 @@
+Public Subnet 1:
+Name: public-subnet-1a
+ID: subnet-0d06046ce2cb9d9e2
+CIDR: 10.0.1.0/24
+AZ: us-east-1a
+Auto Public IP: Enabled
+
+
+Public Subnet 2:
+Name: public-subnet-1b
+ID: subnet-0d6181a3ff5b0c9b4
+CIDR: 10.0.2.0/24
+AZ: us-east-1b
+Auto Public IP: Enabled
+
+
+Private Subnet 1:
+Name: private-subnet-1a
+ID: subnet-09481b3a06361ac9d
+CIDR: 10.0.11.0/24
+AZ: us-east-1a
+
+
+Private Subnet 2:
+Name: private-subnet-1b
+ID: subnet-0cf3fc08a4c68a839
+CIDR: 10.0.12.0/24
+AZ: us-east-1b

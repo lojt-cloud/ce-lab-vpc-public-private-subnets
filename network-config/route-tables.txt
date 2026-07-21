@@ -1,0 +1,25 @@
+Public Route Table:
+
+Name: public-rt
+ID: rtb-01c67d51107f3f3ae
+
+Routes:
+10.0.0.0/16 -> local
+0.0.0.0/0 -> igw-079f759c6bc339c37
+
+Associations:
+public-subnet-1a
+public-subnet-1b
+
+
+Private Route Table:
+
+Name: private-rt
+ID: rtb-02b7594e742116b12
+
+Routes:
+10.0.0.0/16 -> local
+
+Associations:
+private-subnet-1a
+private-subnet-1b
