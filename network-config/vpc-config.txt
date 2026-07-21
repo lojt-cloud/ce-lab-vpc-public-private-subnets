@@ -1,0 +1,24 @@
+# VPC Configuration
+
+## VPC Details
+
+Name:
+bootcamp-vpc
+
+VPC ID:
+vpc-04ab384385311bf3a
+
+Region:
+us-east-1
+
+CIDR Block:
+10.0.0.0/16
+
+Tenancy:
+Default
+
+State:
+Available
+
+DNS Hostnames:
+Enabled
